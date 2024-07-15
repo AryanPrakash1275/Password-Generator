@@ -13,10 +13,10 @@ password = ""
 for character in range(1, nr_letters + 1):
     random_chars = random.choice(letters)
     password += random_chars
-for number in range(1, nr_letters + 1):
+for number in range(1, nr_numbers + 1):
     random_nums = random.choice(numbers)
     password += random_nums
-for symbol in range(1, nr_letters + 1):
+for symbol in range(1, nr_symbols + 1):
     random_symbols = random.choice(symbols)
     password += random_symbols
 listofpassword = list(password)
